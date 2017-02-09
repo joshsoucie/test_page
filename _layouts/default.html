@@ -3,20 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>This is simply a test page!!</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
   </head>
   <body>
 <header>
   <h1>Planets of the Universe</h1>
-  <nav>
-    <ul>
-      <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-      <li><a href="{{site.baseurl}}/news.html">News</a></li>
-    </ul>
-  </nav>
+  {% include nav.html %}
 </header>
 
 
 {{content}}
 
+
+<footer>
+  {% include nav.html %}
+  <p>This is just a test pageeeeeee</p>
+</footer>
   </body>
 </html>
