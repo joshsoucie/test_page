@@ -1,0 +1,2 @@
+baseurl: /test_page
+exclude: ['README.md']
